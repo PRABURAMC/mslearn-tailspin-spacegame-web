@@ -15,11 +15,8 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- task: MyTask@1
-    echo "HI this is 1st task"
+- script: echo "HI this is 1st task"
 
-- task: MyTask@2
-    echo "HI this is 2st task"    
+- script: echo "HI this is 2st task"    
 
-- task: MyTask@3
-    echo "HI this is 3st task"
+- script: echo "HI this is 3st task"
