@@ -15,7 +15,7 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: echo "HI this is 1st task"
+- script: df -h
 
 - script: echo "HI this is 2st task"    
 
